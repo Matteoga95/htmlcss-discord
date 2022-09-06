@@ -39,16 +39,17 @@ a{
   gap: 1rem
 }
 
-.col-3 {
-  width: calc(100% / 12 * 3);
+.col-4 {
+  width: calc(100% / 12 * 4);
+  
 }
 
 .col-6 {
   width: calc(100% / 12 * 6);
 }
 
-.col-9 {
-  width: calc(100% / 12 * 9);
+.col-8 {
+  width: calc(100% / 12 * 8);
 }
 
 
@@ -105,10 +106,10 @@ a{
 
 
 
-.debug [class^="col"] {
+/* .debug [class^="col"] {
   height: 300px;
   background-color: rgb(0, 183, 255);
-}
+} */
 
 .debug .contents {
   height: 400px;
@@ -172,6 +173,23 @@ main section {
   padding: 2rem 0;
 }
 
+.img_main{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main h2{
+    max-width: 70%;
+    text-align: left;
+    padding: 15px 15px;
+    padding-top: 40px;
+}
+
+main p{
+    max-width: 90%;
+    text-align: left;
+
+}
 /* #endregion Main */
 /* #region Footer */
 
