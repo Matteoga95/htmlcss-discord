@@ -1,13 +1,13 @@
 /* #region Common */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 
@@ -19,43 +19,54 @@ a{
 
 /* #region Utility */
 .container {
-  width: 70%;
-  max-width: 1176px;
-  margin: auto
+    width: 70%;
+    max-width: 1176px;
+    margin: auto
 }
 
 .container-sm {
-  width: 60%;
-  max-width: 1000px;
-  margin: auto;
-  text-align: center;
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
 }
 
-
+.mrg_40{
+    margin: 40px;
+}
 
 .row {
-  display: flex;
-  flex: wrap;
-  gap: 1rem
+    display: flex;
+    flex: wrap;
+    gap: 1rem
 }
 
 .col-4 {
-  width: calc(100% / 12 * 4);
-  
+    width: calc(100% / 12 * 4);
+
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
 }
 
 .col-6 {
-  width: calc(100% / 12 * 6);
+    width: calc(100% / 12 * 6);
 }
 
 .col-8 {
-  width: calc(100% / 12 * 8);
+    width: calc(100% / 12 * 8);
 }
 
 
 .d-flex {
-  display: flex;
-  
+    display: flex;
+
 }
 
 /* .bg_secondary {
@@ -67,49 +78,49 @@ a{
 
 
 .py_2 {
-  padding: 2rem 0;
+    padding: 2rem 0;
 }
 
 .space-between {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
-.round_bt{
+.round_bt {
     border-radius: 20px;
-    padding: 10px;    
+    padding: 10px;
     border: none;
     font-size: large;
-    align-self: center;    
+    align-self: center;
 }
 
-.white_bt{
+.white_bt {
     background-color: white;
     color: black;
 }
 
-.black_bt{
+.black_bt {
     background-color: black;
     color: white;
 }
 
-.light_blue_bt{
+.light_blue_bt {
     background-color: #7289da;
     color: white;
-    margin: 40px;
+    
+}
+
+.light_blue_text{
+    color:   #7289da;
+    margin-bottom: 20px;
 }
 
 /* #endregion Utility */
 /* #region Debug */
 
-.debug>header,
-.debug>footer {
-  height: 550px;
-  background-color: red;
-}
 
 .debug nav {
-  /* background-color: aqua; */
-  height: 80px;
+    /* background-color: aqua; */
+    height: 80px;
 }
 
 
@@ -130,46 +141,47 @@ a{
 
 /* #region Header */
 
-header .logo{
-  flex-grow: 1;
-  display: flex;
+header .logo {
+    flex-grow: 1;
+    display: flex;
 
 }
 
-nav{
+nav {
     padding: 20px;
 }
 
-header .login{
+header .login {
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
 }
 
-.head_title{
-    margin: 20px;
-}
-p{
+.head_title {
     margin: 20px;
 }
 
-.logo_img{
-   align-self: flex-start;
-   align-self: center;
-   margin-left: 20px;
+p {
+    margin: 20px;
+}
+
+.logo_img {
+    align-self: flex-start;
+    align-self: center;
+    margin-left: 20px;
 }
 
 
 header .menu {
-  flex-grow: 2;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-header{
-    background-image:url("/assets/img/jumbo.png") ;
+header {
+    background-image: url("/assets/img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -180,39 +192,62 @@ header{
 /* #region Main */
 
 main section {
-  padding: 2rem 0;
+    padding: 2rem 0;
 }
 
-.img_main{
+.img_main {
     max-width: 100%;
     max-height: 100%;
 }
 
-main h2{
+main h2 {
     max-width: 70%;
     text-align: left;
     padding: 15px 15px;
     padding-top: 40px;
 }
 
-main p{
+main p {
     max-width: 90%;
     text-align: left;
 
 }
 
-.keep_in_touch{
+.keep_in_touch {
     text-align: center;
 }
 
-.img_stars{
+.img_stars {
     margin-bottom: -40px;
 }
+
 /* #endregion Main */
 /* #region Footer */
+footer {
+    color: white;
+    background-color: #23272a;
+}
+
+footer h1{
+    margin-bottom: 2px;
+}
 
 footer .footer_bottom {
-  padding: 1rem 0;
+    padding: 1rem 0;
+}
+
+.img_ita{
+    width: 10%;
+}
+
+footer i,
+footer p{
+    margin: 20px 5px;
+}
+
+footer hr{
+   
+    border-color: #7289da;
 }
 
 /* #endregion Footer */
