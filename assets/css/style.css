@@ -58,9 +58,13 @@ a{
   
 }
 
-.bg_secondary {
+/* .bg_secondary {
+   
+/*    
   background-color: lightgray;
-}
+  -webkit-mask: url(/assets/img/wave.svg) no-repeat center;
+  mask: url(/assets/img/wave.svg) no-repeat center; */
+
 
 .py_2 {
   padding: 2rem 0;
@@ -88,6 +92,12 @@ a{
     color: white;
 }
 
+.light_blue_bt{
+    background-color: #7289da;
+    color: white;
+    margin: 40px;
+}
+
 /* #endregion Utility */
 /* #region Debug */
 
@@ -111,10 +121,10 @@ a{
   background-color: rgb(0, 183, 255);
 } */
 
-.debug .contents {
+/* .debug .contents {
   height: 400px;
   background-color: green;
-}
+} */
 
 /* #endregion Debug */
 
@@ -189,6 +199,14 @@ main p{
     max-width: 90%;
     text-align: left;
 
+}
+
+.keep_in_touch{
+    text-align: center;
+}
+
+.img_stars{
+    margin-bottom: -40px;
 }
 /* #endregion Main */
 /* #region Footer */
