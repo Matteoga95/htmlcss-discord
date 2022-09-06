@@ -137,7 +137,10 @@ header .login{
 }
 
 .head_title{
-    margin: 10rem;
+    margin: 20px;
+}
+p{
+    margin: 20px;
 }
 
 .logo_img{
