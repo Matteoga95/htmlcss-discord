@@ -13,6 +13,10 @@ a {
 
 }
 
+p {
+    margin: 20px;
+}
+
 /* #endregion Common */
 
 
@@ -54,14 +58,6 @@ a {
     width: calc(100% / 12 * 9);
 }
 
-.col-6 {
-    width: calc(100% / 12 * 6);
-}
-
-.col-8 {
-    width: calc(100% / 12 * 8);
-}
-
 
 .d-flex {
     display: flex;
@@ -79,9 +75,7 @@ a {
     transform: rotate(180deg);
 }
 
-.py_2 {
-    padding: 2rem 0;
-}
+
 
 .space-between {
     justify-content: space-between;
@@ -117,29 +111,6 @@ a {
 }
 
 /* #endregion Utility */
-/* #region Debug */
-
-
-.debug nav {
-    /* background-color: aqua; */
-    height: 80px;
-}
-
-
-
-
-
-/* .debug [class^="col"] {
-  height: 300px;
-  background-color: rgb(0, 183, 255);
-} */
-
-/* .debug .contents {
-  height: 400px;
-  background-color: green;
-} */
-
-/* #endregion Debug */
 
 /* #region Header */
 
@@ -151,6 +122,7 @@ header .logo {
 
 nav {
     padding: 20px;
+    margin-bottom: 150px;
 }
 
 header .login {
@@ -161,10 +133,6 @@ header .login {
 }
 
 .head_title {
-    margin: 20px;
-}
-
-p {
     margin: 20px;
 }
 
@@ -184,9 +152,10 @@ header .menu {
 
 header {
     background-image: url("/assets/img/jumbo.png");
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     color: white;
+  
 }
 
 
@@ -228,6 +197,7 @@ main p {
 footer {
     color: white;
     background-color: #23272a;
+    padding: 2rem 0
 }
 
 footer h1{
